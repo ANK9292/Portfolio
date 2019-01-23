@@ -1,0 +1,18 @@
+$(document).ready(
+    function(){$(".link_aamir").on("mouseover",
+    function(){$(".img_aamir").show()}).on("mouseout",
+    function(){$(".img_aamir").hide()}),$(".link_mumbai").on("mouseover",
+    function(){$(".img_mumbai").show()}).on("mouseout",
+    function(){$(".img_mumbai").hide()}),$(".link_techtrends").on("mouseover",
+    function(){$(".img_techtrends").show()}).on("mouseout",
+    function(){$(".img_techtrends").hide()}),$(".link_smartdrive").on("mouseover",
+    function(){$(".img_smartdrive").show()}).on("mouseout",
+    function(){$(".img_smartdrive").hide()}),$(".link_travel").on("mouseover",
+    function(){$(".img_travel").show()}).on("mouseout",
+    function(){$(".img_travel").hide()}),$(".link_imatter").on("mouseover",
+    function(){$(".img_imatter").show()}).on("mouseout",
+    function(){$(".img_imatter").hide()}),$(".link_moviehunt").on("mouseover",
+    function(){$(".img_moviehunt").show()}).on("mouseout",
+    function(){$(".img_moviehunt").hide()}),$(".link_qsc").on("mouseover",
+    function(){$(".img_qsc").show()}).on("mouseout",
+    function(){$(".img_qsc").hide()})});
