@@ -1,4 +1,10 @@
 <!doctype html>
+<div id="bgVideo">
+    <video type="video/mp4" autoplay loop muted width="100%" height="100%"> 
+        <source src="https://video.wixstatic.com/video/11062b_9f421918574743b48202cb0dacbd77d4/1080p/mp4/file.mp4" />
+    </video>
+</div>
+<div id="content">
 <head>
     <meta name="description" content="Aamir Khan Portfolio">
     <title>Aamir Khan</title>
@@ -25,9 +31,9 @@
     </script>
 </head>
 
-<body>
+<body id="particles-js">
     <div class="wrapper">
-        <div id="particles-js">
+        <div >
             <div class="content">
                 <h1>
                     <div class="link_aamir">
@@ -41,11 +47,11 @@
                 <div class="experiences"> 
                     <div class="sectiontitle"> 
                         <a class="hover" href="file/AK_Resume_19.pdf" target="_blank">CV 
-                            <span> 
+                            <!-- <span> 
                                 <svg width="10" height="10" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"> 
                                     <path fill="#000000" d="M.216 11.359v2.819h18.401L10.24 22.87l2.114 1.918 11.276-11.941L12.314.788l-2.153 1.88 8.339 8.691z" fill-rule="evenodd"></path> 
                                 </svg> 
-                            </span> 
+                            </span>  -->
                         </a>
                     </div> 
                     <div class="year"> 
@@ -75,17 +81,18 @@
                     <p><span class="hover link_travel" target="_blank">Travelling</span> · <a class="hover link_techtrends" href="https://www.instagram.com/elanofx/" target="_blank">Technology Trends</a> · <span class="hover link_cat">Music</span></p> 
                     <div class="sectiontitle">Elsewhere</div> 
                     <p><a href="mailto:aamir_khan@live.in">Email</a> · <a href="https://www.fb.com/ank9292/" target="_blank">Facebook · </a><a href="https://www.linkedin.com/in/aamir-khan-14399385/" target="_blank">LinkedIn</a></p> </div>
-                    <canvas class="particles-js-canvas-el" width="794" height="577" style="width: 100%; height: 100%;"></canvas></div></div>
-                    <img src="img/aamir.JPG" class="img img_aamir" style="display: none;">
+                    <canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;"></canvas></div></div>
+                    <img src="img/aamir.jpg" class="img img_aamir" style="display: none;">
                     <img src="img/mumbai.jpg" class="img img_mumbai" style="display: none;">
                     <img src="img/techtrends.jpg" class="img img_techtrends">
                     <img src="img/smartdrive.png" class="img img_smartdrive">
-                    <img src="img/iMatter.JPG" class="img img_imatter">
+                    <img src="img/iMatter.jpg" class="img img_imatter">
                     <img src="img/travel.jpg" class="img img_travel">
                     <img src="img/moviehunt.png" class="img img_moviehunt">
                     <img src="img/qsc.png" class="img img_qsc">
-                    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
-                    <script> particlesJS("particles-js", { "particles": { "number": { "value": 50, "density": { "enable": false, "value_area": 4498.141557303954 } }, "color": { "value": "#392C2A" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#FF7690" }, "polygon": { "nb_sides": 6 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.7, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#FFF3F5", "opacity": 0.6, "width": 1 }, "move": { "enable": true, "speed": 4, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true});</script> 
+                    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+                    <script> particlesJS("particles-js", { "particles": { "number": { "value": 50, "density": { "enable": false, "value_area": 4498.141557303954 } }, "color": { "value": "#392C2A" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#FF7690" }, "polygon": { "nb_sides": 6 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 0.7, "random": false, "anim": { "enable": false, "speed": 1, "opacity_min": 0.1, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 40, "size_min": 0.1, "sync": false } }, "line_linked": { "enable": true, "distance": 150, "color": "#FFF3F5", "opacity": 0.6, "width": 1 }, "move": { "enable": true, "speed": 4, "direction": "none", "random": false, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 1200 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "repulse" }, "onclick": { "enable": true, "mode": "push" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 400, "size": 40, "duration": 2, "opacity": 8, "speed": 3 }, "repulse": { "distance": 200, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true});</script>
+                    
 </body>
-
+</div>
 </html>
